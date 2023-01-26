@@ -42,6 +42,7 @@ use Javanile\Imap2\rcube_result_thread;
  */
 class ImapClient
 {
+    public $user;
     public $error;
     public $errornum;
     public $result;
