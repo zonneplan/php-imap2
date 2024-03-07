@@ -28,7 +28,8 @@
     "phpunit/phpunit": "^6.5"
   },
   "replace": {
-    "javanile/php-imap2": "*"
+    "javanile/php-imap2": "*",
+    "mugonix/php-imap2": "*"
   },
   "suggest": {
     "ext-mbstring": "For best support/performance",
