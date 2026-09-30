@@ -1,0 +1,20 @@
+composer.json
+  h_ce4171d67ff3a4 24-25,28
+bootstrap.php
+  h_ce4171d67ff3a4 736,820,1509,1515
+src/Message.php
+  h_ce4171d67ff3a4 132,134
+src/Polyfill.php
+  h_ce4171d67ff3a4 108
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "0eb1a2c61ca5cbc63fb22d08ceb4baf478aebcba",
+  "prompts": {},
+  "humans": {
+    "h_ce4171d67ff3a4": {
+      "author": "Roy Bongers <roy.bongers@zonneplan.nl>"
+    }
+  }
+}
