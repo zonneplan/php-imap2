@@ -105,7 +105,7 @@ class Polyfill
         return $string;
     }
 
-    public static function mailCompose($envelope, $bodies)
+    public static function mailCompose($envelope, $bodies): false
     {
         return false;
     }
