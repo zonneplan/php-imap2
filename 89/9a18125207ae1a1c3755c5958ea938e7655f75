@@ -1,0 +1,14 @@
+tests/ImapTestCase.php
+  h_ce4171d67ff3a4 102
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "899a18125207ae1a1c3755c5958ea938e7655f75",
+  "prompts": {},
+  "humans": {
+    "h_ce4171d67ff3a4": {
+      "author": "Roy Bongers <roy.bongers@zonneplan.nl>"
+    }
+  }
+}
