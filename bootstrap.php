@@ -733,7 +733,7 @@ if (!function_exists('imap2_search')) {
                 return imap_search($imap, $criteria, $flags, $charset);
             }
         }
-        
+
         return Message::search($imap, $criteria, $flags, $charset);
     }
 }
@@ -817,7 +817,7 @@ if (!function_exists('imap2_sort')) {
                 return imap_sort($imap, $criteria, $reverse, $flags, $searchCriteria, $charset);
             }
         }
-        
+
         return Message::sort($imap, $criteria, $reverse, $flags, $searchCriteria, $charset);
     }
 }
@@ -1506,13 +1506,13 @@ if (!function_exists('imap2_qprint')) {
  * imap2_rfc822_parse_adrlist
  */
 if (!function_exists('imap_rfc822_parse_adrlist')) {
-    function imap_rfc822_parse_adrlist($string, $defaultHostname)
+    function imap_rfc822_parse_adrlist($string, $defaultHostname): array
     {
         return Polyfill::rfc822ParseAdrList($string, $defaultHostname);
     }
 }
 if (!function_exists('imap2_rfc822_parse_adrlist')) {
-    function imap2_rfc822_parse_adrlist($string, $defaultHostname)
+    function imap2_rfc822_parse_adrlist($string, $defaultHostname): array
     {
         return imap_rfc822_parse_adrlist($string, $defaultHostname);
     }

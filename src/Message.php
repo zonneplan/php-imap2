@@ -129,9 +129,9 @@ class Message
         $headers = [];
         foreach ($messages as $message) {
             $from = ' ';
-            if ($message->from != 'no_host') {
+            if ($message->from !== 'no_host') {
                 $from = imap_rfc822_parse_adrlist($message->from, 'no_host');
-                $from = isset($from[0]->personal) ? $from[0]->personal : $message->from;
+                $from = $from[0]->personal ?? $message->from;
             }
 
             $date = explode(' ', $message->internaldate);
